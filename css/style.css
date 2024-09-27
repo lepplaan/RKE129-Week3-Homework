@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color:aliceblue;
+    font-family: "Exo 2", sans-serif;
+    color:dimgray;
+}
+
+.heading {
+    text-align: center;
+}
+
+.recipe-heading {
+    color:crimson;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-left: 4rem;
+}
+
+.recipe-subheading {
+    color:crimson;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 2rem 0 0.5rem 4rem;
+}
+
+.ingredients {
+    width: 100%; 
+    margin: 1rem auto;
+}
+
+.ingredients-table {
+    border: 1px solid black;
+    margin: 2rem 0 0 5rem;
+    width: 30%; 
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px; /* Adds padding to all cells */
+    border: 1px solid #ccc; /* Optional: adds a border for visibility */
+    text-align: left; /* Aligns text to the left (optional) */
+}
+
+.instructions {
+    width: 100%;
+    display: flex;
+    margin-left: 4rem;
+    align-items: center;
+}
+
+.instructions ol li {
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.instructions ul li {
+    font-weight: normal;
+}
+
+.instructions img {
+    margin: 1rem auto;
+    max-height: 250px;
+}
+
+#source {
+    margin-left: 4rem;
+}
+
+.footer {
+    color:darkslategrey;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: center;
+}
